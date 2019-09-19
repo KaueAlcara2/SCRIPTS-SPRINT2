@@ -112,5 +112,5 @@ interface fastethernet0 / 1
 switchport tronco nativo vlan 99
 tronco de switchport permitido vlan 10,20,30,99
 fim
-(REPETE PARA TODAS AS OUTRAS)
+(REPETE PARA TODAS AS OUTRAS]
 -----------------------------------
