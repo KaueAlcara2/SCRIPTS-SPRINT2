@@ -51,5 +51,66 @@ no shutdow
 do wr
 
 
-
-
+SW
+mostre o vlan breve
+vlan 10
+nome RH
+interface fastethernet 0/1
+acesso switchport vlan 10
+acesso ao modo switchport
+fim
+vlan 20
+nome ADM
+interface fastethernet 0/2
+acesso switchport vlan 20
+acesso ao modo switchport
+fim
+vlan 30
+nome QUALIDADE
+interface fastethernet 0/3
+acesso switchport vlan 30
+acesso ao modo switchport
+fim
+vlan 40
+nome RECEPCAO
+interface fastethernet 0/4
+acesso switchport vlan 40
+acesso ao modo switchport
+fim
+vlan 50
+nome TI
+interface fastethernet 0/5
+acesso switchport vlan 50
+acesso ao modo switchport
+fim
+vlan 60
+nome ANALISTAS
+interface fastethernet 0/6
+acesso switchport vlan 60
+acesso ao modo switchport
+fim
+vlan 70
+nome FINANCIAS
+interface fastethernet 0/7
+acesso switchport vlan 70
+acesso ao modo switchport
+fim
+vlan 80
+nome CONSULTORES
+interface fastethernet 0/8
+acesso switchport vlan 80
+acesso ao modo switchport
+fim
+vlan 90
+nome VOZ
+interface fastethernet 0/9
+acesso switchport vlan 90
+acesso ao modo switchport
+fim
+-----------------------------------
+interface fastethernet0 / 1
+switchport tronco nativo vlan 99
+tronco de switchport permitido vlan 10,20,30,99
+fim
+(REPETE PARA TODAS AS OUTRAS)
+-----------------------------------
