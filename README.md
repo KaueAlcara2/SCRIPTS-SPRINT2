@@ -51,7 +51,12 @@ no shutdow
 do wr
 
 
-SW
+
+
+
+
+SW SCRIPT
+
 mostre o vlan breve
 vlan 10
 nome RH
